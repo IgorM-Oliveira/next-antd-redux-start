@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "next build && next start",
+    "export": "npm run build && next export -o _static"
+  },
+  "dependencies": {
+    "@ant-design/icons": "4.2.1",
+    "@next/bundle-analyzer": "^9.1.4",
+    "@reduxjs/toolkit": "^1.8.0",
+    "@stitches/react": "^1.2.7",
+    "antd": "4.3.0",
+    "cross-env": "^7.0.2",
+    "dayjs": "1.8.28",
+    "esm": "^3.2.25",
+    "next": "^12.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-favicon": "^1.0.0",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^6.2.2",
+    "redux": "^4.1.2"
+  },
+  "browser": {
+    "fs": false,
+    "path": false
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5",
+    "sass": "^1.49.9"
+  }
+}

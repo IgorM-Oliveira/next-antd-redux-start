@@ -1,0 +1,28 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  min-width: 100vw;
+  min-height: 100vh;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.layout {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
